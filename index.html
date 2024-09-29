@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Zenteno</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/n1.png" alt="">
+            <h1>Dhenis Ronald Zenteno Ramos</h1>
+            <h2>Ingeniero de Sistemas</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/dhenis.zenteno" target="_black"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/59162834108" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola mi nombre es Dhenis ronald Zenteno Ramos</span> Soy estudiante de Ingeniería de Sistemas, con un buen conocimiento en la parte de redes y la programacion. Además, 
+                                                me encanta explorar y disfrutar de paisajes, y en mis tiempos libres me gusta dibujar.
+                                                 Mi objetivo es seguir creciendo como profesional y aplicar lo que aprendo en proyectos que tengan un impacto real.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            18-09-2004
+                        </li>
+                        <li>
+                            <strong>Nº Movil</strong>
+                            +591 62834108
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            549dhenisz@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle Caciques entre Av 3, Oruro, Bolivia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-pencil"></i>
+                            <span>Dibujar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mountain"></i>
+                            <span>Paisajes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-cat"></i>
+                            <span>animales</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Experiencia Tecnica</h3>
+                    <div class="skill">
+                        <span>c++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>53%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Tecnicas Profesional</h3>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Idiomas -->
+                <div class="col">
+                    <h3>Tecnicas Idiomas</h3>
+                    <div class="skill">
+                        <span>Español</span>
+                        <div class="barra-skill">
+                            <div class="progreso espaniol">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ingles</span>
+                        <div class="barra-skill">
+                            <div class="progreso ingles">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Participacion Academia CISCO</h4>
+                        <span class="casa">FNI</span>
+                        <span class="fecha">16 - 11 - 2022</span>
+                        <p>Participacion de jornadas de Tecnologia de Comunicacion con una carga horaria de 32 horas lectivas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Fundamuentos de Ingles</h4>
+                        <span class="casa">Teachlr</span>
+                        <span class="fecha"> 1 - 7 - 2024</span>
+                        <p>Curso de fundamentos de Ingles con una duracion de 20 horas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Dibujo </h4>
+                        <span class="casa">Oruro</span>
+                        <span class="fecha">2021</span>
+                        <p>Participacion de concurso en dibujos con una duracion de 8 horas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/po1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Oruro</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/po2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Dia Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/po3.jpg" alt="" height="450">
+                    <div class="overlay">
+                        <h3>Dibujo artistico</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/po4.jpg" alt="" width="300">
+                    <div class="overlay">
+                        <h3>Facultad Nacional de Ingenieria</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <span>PRESIONE EL ICONO DE TELEGRAM:</span>
+                    <button>
+                        Enviar Mensaje<a href="https://t.me/+59162834108" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/map.png" alt="" height="300">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bolivia, Oruro
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                N° Movil: +591 62834108 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: 549dhenisz@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
